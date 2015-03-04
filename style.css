@@ -230,7 +230,7 @@ HEADER
     margin: 17px 10px;
 }
 
-.headerBanner { 
+.headerBanner {
    width: 1140px;
    height: 180px;
 }
@@ -283,7 +283,7 @@ HEADER
     text-transform: uppercase;
     font-size: .8em;
     width: 120px;
-    border-radius: 3px; 
+    border-radius: 3px;
 }
 
 .headerButtons a:hover {
@@ -308,7 +308,7 @@ background:#353535 !important;
 }
 
 ul.dropdown {
-   padding-left: 10px; 
+   padding-left: 10px;
 }
 
 ul.dropdown li {
@@ -321,7 +321,7 @@ ul.dropdown li a {
    color: #fff!important;
    padding: 0 10px;
    text-transform: uppercase;
-   font-weight: normal; 
+   font-weight: normal;
    color: rgb(241, 241, 241);
    font-size: 0.8em;
    letter-spacing: 0.08em;
@@ -402,7 +402,7 @@ Slider
     text-align: center;
     text-transform: uppercase;
     line-height: 39px;
-    cursor: pointer; 
+    cursor: pointer;
     font-size: 14px;
     border: none;
 }
@@ -479,7 +479,7 @@ HOME PAGE
 
 #selectLocation option {
    background: #fff;
-   color: rgb(90, 90, 90); 
+   color: rgb(90, 90, 90);
 }
 
 .hpDonateLink, .hpDownloadPledgeLink, .hpFindLink, .hpRegisterLink {
@@ -616,7 +616,7 @@ hr {
 }
 #sslogos{
     vertical-align: middle;
-    padding: 0px 10px 0px 10px;
+    padding: 0px 10px 5px 10px;
 }
 
 /*twitter timeline*/
@@ -632,21 +632,21 @@ hr {
   border-radius: 3px;
 }
 /*Unslider*/
-.banner{ 
+.banner{
   position: relative;
   margin-bottom: 15px;
   text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
 
 }
-.banner li { 
+.banner li {
   list-style: none;
 }
 
-.banner ul{ 
+.banner ul{
   padding-left: 0px;
 }
 
-.banner ul li { 
+.banner ul li {
   float: left;
   display: block;
   min-height: 350px;
@@ -708,15 +708,15 @@ p#banner2{
 			width: 10px;
 			height: 10px;
 			margin: 0 4px;
-			
+
 			text-indent: -999em;
-			
+
 			border: 2px solid #fff;
 			border-radius: 6px;
-			
+
 			cursor: pointer;
 			opacity: .4;
-			
+
 			-webkit-transition: background .5s, opacity .5s;
 			-moz-transition: background .5s, opacity .5s;
 			transition: background .5s, opacity .5s;
@@ -871,7 +871,7 @@ float:left;
 }
 
 .fundraising101thumb:hover {
-    -webkit-transform: scale(2); 
+    -webkit-transform: scale(2);
     -moz-transform: scale(2);
     -o-transform: scale(2);
     transform: scale(2);
@@ -898,7 +898,7 @@ display:none;
 }
 
 #DoItForDadFooter {
-    height: 190px; 
+    height: 190px;
     background: #353535;
     border-top: solid 8px #666666;
     width: 1140px;
