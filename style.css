@@ -1,0 +1,960 @@
+@charset "utf-8";
+/*15SUC CSS Document */
+
+/* Hyperlink https://a0691ec452bfa17643e05411cfdf52f6ce66281d.googledrive.com/host/0B1AAYu88IUysZTJvTDdJSFJqcDA/style.css)*/
+
+
+.nivo-caption {
+   opacity: 1;
+}
+
+#ctl00_ctl00_mainContent_bodyContentPlaceHolder_divEventInfo {
+    display: none !important;
+}
+
+/***************
+Registration
+***************/
+.customizeYourPage h4{
+font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+font-size: 20px;
+color: #5a5a5a;
+font-weight: bold;
+}
+
+/***************
+Fundraising Hub
+***************/
+
+.sub-links li a {
+display: block;
+color: #ffffff;
+height: 39px;
+margin: 13px 7px 0 7px;
+background: #47B437;
+line-height: 39px;
+text-align: center;
+text-transform: uppercase;
+font-size: .8em;
+width: 120px;
+border-radius: 3px;
+padding-left:5px;
+padding-right:5px;
+}
+
+.sub-links li a:hover{
+    background-color: #3fa031;
+    color: #fff;
+}
+
+#contactsTrigger {
+background: url(https://gallery.mailchimp.com/381dca877e43c44046caa6dd1/images/bd5e4581-5fa4-45fb-aeeb-699b7f1283a7.png) no-repeat;
+background-image: url(https://gallery.mailchimp.com/381dca877e43c44046caa6dd1/images/bd5e4581-5fa4-45fb-aeeb-699b7f1283a7.png);
+background-position-x: initial;
+background-position-y: initial;
+background-size: 40px;
+background-repeat-x: no-repeat;
+background-repeat-y: no-repeat;
+background-attachment: initial;
+background-origin: initial;
+background-clip: initial;
+background-color: initial;
+color: transparent;
+height:40px;
+}
+
+/***************
+Locations
+***************/
+
+.quickLinks ul {
+    padding-left: 10px;
+}
+
+.quickLinks li {
+    list-style: none outside none;
+}
+
+/****************
+FANCY BOX
+***************/
+/*
+#fancybox-content p, #fancybox-content a, #fancybox-content a:hover, #fancybox-content li, #fancybox-content td {
+    font-size: 13px;
+}
+
+#fancybox-content a:visited {
+   color: #fff;
+}
+
+#fancybox-content thead td {
+   font-size: 15px;
+   font-weight: bold;
+   background: #ccc;
+}
+
+#fancybox-content h3 {
+    font-size: 17px;
+    color: #0168B3;
+}
+
+#faq p {
+    margin-top: 0;
+    padding-top: 0;
+}
+
+#fancybox-content table, #fancybox-content thead, #fancybox-content tbody, #fancybox-content tr, #fancybox-content th, #fancybox-content td {
+    border: 1px solid #ccc;
+    padding: 5px;
+}
+
+#about, #fund, #aboutFoot, #where, #aboutEvent, #faq, #train, #loc {
+    width: 800px !important;
+}*/
+
+/***************
+GENERAL LAYOUT
+***************/
+
+:focus {
+outline:none;
+}
+
+#header .social-network-links .addthis-container {
+padding-top: 4px;
+}
+
+img {
+    border: medium none;
+}
+
+body {
+   font-size: 100%;
+   font-family: Arial,Helvetica,sans-serif;
+}
+
+#frame, #siteWrapper {
+    width: 1140px;
+}
+
+#main-container {
+    margin-top:10px;
+}
+
+section {
+    font-size: 95%;
+    line-height: 1.5;
+}
+
+.anythingSlider.anythingSlider-simple.activeSlider {
+    position: relative;
+    z-index: 1;
+}
+
+#shortcut-links .shortcut-link .pictos.team-icon {
+    margin-top: -37px;
+}
+
+button, input[type="submit"], input[type="button"] {
+    padding: 12px;
+    border: none;
+    border-radius: 3px;
+}
+
+button, input[type="button"], input[type="submit"] {
+    background-image: none;
+}
+
+#header .splash-login-link {
+    display: none;
+}
+
+/***************
+FONT & COLOUR
+***************/
+
+#header #language-support a, #header a.splash-login-link, #header .profile a, #header .profile {
+    color: #5a5a5a;
+}
+
+/***************
+HEADER
+***************/
+
+#header {
+    background: none;
+}
+
+/*Hide global header registration and donate links*/
+#header .global-header-link, #header .global-header-link-bold{
+    Display:none;
+}
+
+#header .social-network-links {
+   float: right;
+}
+
+#doItForDadHeaderWrapper {
+    height: 250px;
+    left: 0;
+    top: 0;
+    width: 1140px;
+}
+
+.topPortion {
+    height: 95px;
+}
+
+.topPortion a {
+    display: block;
+    float: left;
+    margin: 0px 0 0 12px;
+}
+
+.topLinks li {
+    display: inline;
+}
+
+.topLinks li a {
+    text-transform: uppercase;
+    color: rgb(68, 68, 68);
+}
+
+.topLinks li a:hover {
+    text-decoration: underline;
+    color: rgb(0, 0, 0);
+}
+
+.topLinks {
+    float: right;
+    margin: 17px 10px;
+}
+
+.headerBanner { 
+   width: 1140px;
+   height: 180px;
+}
+
+.headerContainer img
+{
+    max-width: 1140px !Important;
+ display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.headerText {
+    color: #FFFFFF;
+    float: right;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 55px;
+    margin-top: 86px;
+    text-align: right;
+}
+
+.headerText p {
+   margin: 10px 0;
+   padding: 0;
+}
+
+.nav {
+    background: none repeat scroll 0 0 rgb(53, 53, 53);
+    height: 68px;
+    line-height: 68px;
+}
+
+.headerButtons {
+    float: right;
+    margin: 0 10px 0 23px;
+    height: 68px;
+}
+
+.headerButtons a {
+    display: block;
+    float: left;
+    height: 39px;
+    margin: 13px 7px 0 7px;
+    background: #47B437;
+    color: #fff;
+    line-height: 39px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: .8em;
+    width: 120px;
+    border-radius: 3px; 
+}
+
+.headerButtons a:hover {
+   background: #5CE047;
+   text-decoration: none;
+color:#fff;
+}
+
+/*************
+Nav Dropdown Menu
+*************/
+
+#homebutton{
+width:30px;
+display:block;
+padding-top:20px;
+padding-bottom:18px;
+}
+
+#homebutton li:hover{
+background:#353535 !important;
+}
+
+ul.dropdown {
+   padding-left: 10px; 
+}
+
+ul.dropdown li {
+   background: none;
+   margin: 0;
+   list-style: none;
+}
+
+ul.dropdown li a {
+   color: #fff!important;
+   padding: 0 10px;
+   text-transform: uppercase;
+   font-weight: normal; 
+   color: rgb(241, 241, 241);
+   font-size: 0.8em;
+   letter-spacing: 0.08em;
+}
+
+ul.dropdown li.hover a:hover {
+   font-weight: normal;
+   text-decoration: none;
+   color: #fff;
+}
+
+ul.dropdown li.hover, ul.dropdown li:hover {
+   background: #424242;
+}
+
+ul.dropdown li.hover a {
+    color: #fff !important;
+}
+
+ul.dropdown ul {
+   padding: 0;
+   margin: 0;
+   width: 283px;
+   z-index: 100;
+}
+
+ul.dropdown ul li {
+   border: none;
+   background: #59B84C;
+}
+
+.sub_menu li {
+    line-height: 34px;
+}
+
+.sub_menu li.hover:hover {
+    background: #5CE047;
+}
+
+ul.dropdown li.hover ul.sub_menu a:hover {
+   font-weight: normal;
+}
+
+.arrow {
+    background: url("https://webmedia.cstonecanada.com/ImageGalleryPro/mediaobjects/Prostate/DoItForDad/arrows-ffffff.png") no-repeat -10px -100px;
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
+
+/*****************
+Slider
+*****************/
+
+.theme-default .nivoSlider {
+   margin-bottom: 0
+}
+
+.theme-default .nivo-controlNav {
+   padding: 0 0 20px;
+}
+
+.theme-default .nivo-caption {
+    left: 4%;
+    position: absolute;
+    top: 33%;
+    width: 100%;
+}
+
+.theme-default .nivo-caption h2{
+    font-size: 2.2em;
+}
+
+.theme-default .nivo-caption a {
+    display: block !important;
+    width: 203px;
+    height: 39px;
+    text-align: center;
+    text-transform: uppercase;
+    line-height: 39px;
+    cursor: pointer; 
+    font-size: 14px;
+    border: none;
+}
+
+.nivo-caption {
+   background: none;
+}
+
+/**************
+HOME PAGE
+***************/
+
+.homePageImge {
+    float: left;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    width: 100%;
+}
+
+.eventInfo {
+    float: left;
+    padding-bottom: 0;
+    padding-left: 0;
+    padding-right: 6%;
+    padding-top: 0;
+    width: 43%;
+}
+
+.eventInfo a {
+    font-size: 95%;
+}
+
+.getInvolvedSection {
+    float: left;
+    width: 50%;
+}
+
+.getInvolvedSection h2 {
+    background: rgb(0, 65, 111);
+    color: rgb(255, 255, 255);
+    font-size: 0.85em;
+    font-weight: normal;
+    letter-spacing: 0.12em;
+    margin: 0;
+    padding: 11px 7px;
+    text-transform: uppercase;
+}
+
+.getInvolvedSection p {
+    padding: 0 7px;
+    margin: 14px 0;
+}
+
+.doItForDadHPContent {
+    clear: both;
+}
+
+#selectLocation {
+    border: 1px solid rgb(226, 226, 226);
+    color: rgb(90, 90, 90);
+    padding: 0 0 0 10px;
+    width: 556px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    display: block;
+    height: 50px;
+    margin: 2px auto 0 auto;
+}
+
+#selectLocation:hover {
+    background: #47B437;
+    color: #fff;
+}
+
+#selectLocation option {
+   background: #fff;
+   color: rgb(90, 90, 90); 
+}
+
+.hpDonateLink, .hpDownloadPledgeLink, .hpFindLink, .hpRegisterLink {
+    border: 1px solid rgb(211, 211, 211);
+    display: block;
+    margin: 2px;
+    padding: 15px 7px 0 7px;
+    color: rgb(90, 90, 90);
+    font-size: 0.9em;
+    text-transform: uppercase;
+    width: 46%;
+    float: left;
+    height: 35px;
+}
+
+.hpDonateLink:hover, .hpDownloadPledgeLink:hover, .hpFindLink:hover, .hpRegisterLink:hover {
+    border: 1px solid rgb(211, 211, 211);
+    display: block;
+    margin: 2px;
+    color: #fff !Important;
+    font-size: 0.9em;
+    text-decoration: none;
+}
+
+.hpDonateLink:visited, .hpDownloadPledgeLink:visited, .hpFindLink:visited, .hpRegisterLink:visited{
+    color: #5a5a5a!Important;
+    text-decoration: none !Important;
+}
+
+.hpDonateLink:visited:hover, .hpDownloadPledgeLink:visited:hover, .hpFindLink:visited:hover, .hpRegisterLink:visited:hover{
+    color: #fff !Important;
+    text-decoration: none !Important;
+}
+
+.hpRegisterLink:hover {
+    background: url("https://webmedia.cstonecanada.com/ImageGalleryPro/mediaobjects/Prostate/DoItForDad/sprites-stepup.png") left -51px #47B437;
+}
+
+.hpRegisterLink {
+    background: url("https://webmedia.cstonecanada.com/ImageGalleryPro/mediaobjects/Prostate/DoItForDad/sprites-stepup.png") left -7px;
+    text-indent: 53px;
+}
+
+.hpDonateLink {
+    background: url("https://webmedia.cstonecanada.com/ImageGalleryPro/mediaobjects/Prostate/DoItForDad/sprites-stepup.png") left -97px;
+    text-indent: 53px;
+}
+
+.hpDonateLink:hover {
+    background: url("https://webmedia.cstonecanada.com/ImageGalleryPro/mediaobjects/Prostate/DoItForDad/sprites-stepup.png") left -138px #47B437;
+}
+
+.hpDownloadPledgeLink {
+    background: url("https://webmedia.cstonecanada.com/ImageGalleryPro/mediaobjects/Prostate/DoItForDad/sprites-stepup.png") left -280px;
+    text-indent: 53px;
+}
+
+.hpDownloadPledgeLink:hover {
+    background: url("https://webmedia.cstonecanada.com/ImageGalleryPro/mediaobjects/Prostate/DoItForDad/sprites-stepup.png") left -329px #47B437;;
+}
+
+.hpFindLink {
+    background: url("https://webmedia.cstonecanada.com/ImageGalleryPro/mediaobjects/Prostate/DoItForDad/sprites-stepup.png") left -189px;
+    text-indent: 53px;
+}
+
+.hpFindLink:hover {
+    background: url("https://webmedia.cstonecanada.com/ImageGalleryPro/mediaobjects/Prostate/DoItForDad/sprites-stepup.png") left -231px #47B437;
+}
+
+
+/*Sponsors*/
+#homesponsors {
+    clear: both;
+    padding-top: 30px;
+}
+
+#homesponsors h3 {
+    background-color: rgb(255, 255, 255);
+    display: block;
+    font-size: 0.8em;
+    letter-spacing: 0.09em;
+    margin: -20px auto 0 auto;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(90, 90, 90);
+    width: 383px;
+}
+
+hr {
+   color: rgb(128, 128, 128);
+   background: rgb(128, 128, 128);
+}
+
+/*Major Sponsors*/
+#majorsponsors{
+  height: 110px;
+}
+#sb {
+    display: block;
+    float: left;
+    width: 48%;
+    text-align: center;
+    font-size: 0.8em;
+    color: #5a5a5a;
+}
+
+#sb:hover {
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+#ox{
+    display: block;
+    float: right;
+    width: 48%;
+    text-align: center;
+    font-size: 0.8em;
+    color: #5a5a5a;
+}
+
+#ox:hover {
+    color: #5a5a5a;
+    text-decoration: none;
+}
+
+/*Supporting Sponsors*/
+
+#supportingsponsors{
+  height: 75px;
+  text-align: center;
+  margin-top: 10px;
+}
+#sslogos{
+    vertical-align: middle;
+    padding: 0px 10px 0px 10px;
+}
+
+/*twitter timeline*/
+#twittertimeline{
+  float: right;
+  display: block;
+  height: 100%;
+  width: 40%;
+  background-color: #ededed;
+  padding: 10px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+/*Unslider*/
+.banner{ 
+  position: relative;
+  margin-bottom: 15px;
+  text-shadow: 0 0 1px rgba(0,0,0,.05), 0 1px 2px rgba(0,0,0,.3);
+
+}
+.banner li { 
+  list-style: none;
+}
+
+.banner ul{ 
+  padding-left: 0px;
+}
+
+.banner ul li { 
+  float: left;
+  display: block;
+  min-height: 350px;
+}
+
+.banner a{
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+}
+
+.banner a:hover{
+  font-size: 20px;
+  color: #fff;
+  text-decoration: none;
+  border-bottom: 1px solid #fff;
+
+}
+
+h1#banner1{
+  font-size: 40px;
+  color: #fff;
+  display: block;
+  padding: 98px 0px 0px 55px;
+  font-weight: 200;
+}
+
+p#banner1{
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  padding: 0px 0px 0px 100px;
+}
+
+h1#banner2{
+  font-size: 40px;
+  color: #fff;
+  display: block;
+  padding: 60px 0px 0px 55px;
+  font-weight: 200;
+}
+
+p#banner2{
+  font-size: 20px;
+  color: #fff;
+  display: block;
+  padding: 0px 0px 0px 55px;
+}
+
+.banner .dots {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 20px;
+	}
+		.banner .dots li {
+			display: inline-block;
+			width: 10px;
+			height: 10px;
+			margin: 0 4px;
+			
+			text-indent: -999em;
+			
+			border: 2px solid #fff;
+			border-radius: 6px;
+			
+			cursor: pointer;
+			opacity: .4;
+			
+			-webkit-transition: background .5s, opacity .5s;
+			-moz-transition: background .5s, opacity .5s;
+			transition: background .5s, opacity .5s;
+		}
+			.banner .dots li.active {
+				background: #fff;
+				opacity: 1;
+			}
+
+/****************
+Scoreboard
+****************/
+
+.scoreboardHeading {
+   display: none;
+}
+
+#interactiveIndividualListing, #interactiveTeamListing {
+    width: 40%;
+    float: left;
+    margin-right: 111px;
+}
+
+#scoreboard{
+   margin-left:40px;
+}
+
+#scoreboard .scoreboard .resultRow {
+    border-bottom: 1px solid #ccc;
+   font-weight: normal;
+}
+
+#interactiveTeamListing {
+    margin-top: -23px;
+}
+
+#interactiveIndividualListing h3, #interactiveTeamListing h3 {
+    color: #5a5a5a;
+    font-size:20px;
+}
+
+/****************
+LOCATION PAGES
+****************/
+/*
+.locationPageSponsors {
+    width: 720px;
+}
+
+.locationPageSponsors img {
+    margin-left: 85px;
+}
+
+#locationHomeContents #selectedLocationName {
+   width: 100%;
+}
+
+#selectedLocationName h2 {
+    background: rgb(0, 65, 111);
+    color: rgb(255, 255, 255);
+    font-size: 0.9em;
+    padding: 7px 1px 7px 7px;
+    width: 100%;
+    font-weight: normal;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.locationPageSponsors h3 {
+    margin: -36px auto 0 auto;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    font-size: 0.8em;
+    letter-spacing: 0.09em;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(90, 90, 90);
+    width: 383px;
+}
+
+.locationPageSponsors a {
+    display: block;
+    float: left;
+    margin: 0 43px;
+}
+
+#locationDescriptionPanel {
+    width: 93%;
+    border: none;
+}
+*/
+/****************
+PERSONAL TEAM PAGES
+****************/
+
+#fundraising-page-header #page-name-container, #fundraising-page-header #amount-raised-container {
+   background: #024B80;
+}
+
+/*****************
+STANDARD CSS CONTENT-MICROSITE PAGES
+**************/
+#container{
+width:1140px;
+min-height: 500px;
+}
+
+#main li.hover, a:hover{
+color: #47B437;
+text-decoration: none;
+}
+
+/*Vancouver Results*/
+#timerandmedals{
+  width:400px;
+  float: left;
+  padding: 0px 10px 10px 0px;
+}
+
+#results{
+  width:900px;
+  margin: auto;
+}
+
+#resultschart{
+  float: left;
+  padding:0px 10px 20px 10px;
+}
+
+/*Fundraising101*/
+.list101{
+display:inline-block;
+}
+.fundraising101block{
+display:inline-block;
+}
+
+#fundraising101blocksocialthumbs{
+margin:auto;
+width:800px;
+}
+
+
+.fundraising101thumb{
+  -webkit-transition: all .8s ease-in-out;
+  -moz-transition: all .8s ease-in-out;
+  -o-transition: all .8s ease-in-out;
+  transition: all .8s ease-in-out;
+padding-right:10px;
+float:left;
+}
+
+.fundraising101thumb:hover {
+    -webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+.fundraising101thumbmargin:hover{
+margin-left:110px;
+}
+
+/*Table Design*/
+.tg  {border-collapse:collapse;border-spacing:0;border-color:#ccc;}
+.tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#fff;}
+.tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:1px;overflow:hidden;word-break:normal;border-color:#ccc;color:#333;background-color:#f0f0f0;min-width:400px;}
+.tg .tg-e3zv{font-weight:bold}
+.tg .tg-rc10{background-color:#f9f9f9;font-weight:bold}
+.tg .tg-4eph{background-color:#f9f9f9}
+
+/*************
+FOOTER
+************/
+
+#footer nav{
+display:none;
+}
+
+#DoItForDadFooter {
+    height: 190px; 
+    background: #353535;
+    border-top: solid 8px #666666;
+    width: 1140px;
+}
+
+#DoItForDadFooter p {
+    clear: both;
+    text-align: center;
+    color: rgb(204, 204, 204);
+    font-size: 0.75em;
+}
+.ProstateLogo a {
+    display: block;
+    float: left;
+    height: 101px;
+    width: 141px;
+    margin: 10px 0 0 20px;
+}
+
+.footerSocial {
+    float: right;
+    height: 34px;
+    margin: 20px 40px 15px 0;
+    width: 86px;
+}
+
+#DoItForDadFooter .footerSocial a {
+    display: block;
+    float: left;
+    height: 34px;
+    margin: 0px 5px 0;
+    width: 33px;
+}
+
+.footerLinks {
+    clear: right;
+    float: right;
+    padding: 10px;
+}
+
+#DoItForDadFooter .footerLinks a {
+    color: rgb(255, 255, 255);
+    font-size: 0.75em;
+    margin: 0;
+}
+
+.footerLinks ul {
+    padding: 17px 0 34px 0;
+}
+
+.footerLinks ul li {
+    list-style: none;
+    padding-right: 12px;
+    text-align: right;
+}
+
+.footerlogo{
+
+}
