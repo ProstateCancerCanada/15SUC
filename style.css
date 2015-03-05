@@ -667,22 +667,7 @@ hr {
 
 }
 
-h1#banner1{
-  font-size: 40px;
-  color: #fff;
-  display: block;
-  padding: 98px 0px 0px 55px;
-  font-weight: 200;
-}
-
-p#banner1{
-  font-size: 20px;
-  color: #fff;
-  display: block;
-  padding: 0px 0px 0px 100px;
-}
-
-h1#banner2{
+.banner h1{
   font-size: 40px;
   color: #fff;
   display: block;
@@ -690,7 +675,7 @@ h1#banner2{
   font-weight: 200;
 }
 
-p#banner2{
+.banner p{
   font-size: 20px;
   color: #fff;
   display: block;
