@@ -80,6 +80,14 @@ Locations
 GENERAL LAYOUT
 ***************/
 
+#divCollapseContentMore{
+  display: none;
+}
+
+#divCollapseContentLess{
+  display: none;
+}
+
 :focus {
 outline:none;
 }
