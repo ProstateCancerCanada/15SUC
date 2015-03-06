@@ -132,6 +132,9 @@ body {
    font-size: 100%;
    font-family: Arial,Helvetica,sans-serif;
 }
+li {
+  margin: 0px 0px;
+}
 
 #frame, #siteWrapper {
     width: 1140px;
@@ -636,7 +639,6 @@ hr {
   position: relative;
   margin-bottom: 15px;
   text-shadow: 0 0 2px rgba(0,0,0,10), 0 1px 2px rgba(0,0,0,30);
-
 }
 .banner li {
   list-style: none;
@@ -686,13 +688,14 @@ hr {
 		position: absolute;
 		left: 0;
 		right: 0;
-		bottom: 20px;
+		bottom: 8px;
+		text-align: center;
 	}
 		.banner .dots li {
 			display: inline-block;
-			width: 10px;
-			height: 10px;
-			margin: 0 4px;
+			width: 5px;
+			height: 5px;
+			margin: 0px 4px;
 
 			text-indent: -999em;
 
@@ -716,10 +719,10 @@ hr {
       		padding: 9px 22px 7px;
       		clear: both;
       		color: #fff;
-      		font-weight: bold;
+      		font-weight: normal;
       		text-transform: uppercase;
       		text-decoration: none;
-      		border: 2px solid rgba(255,255,255,.4);
+      		border: 1px solid rgba(255,255,255,.4);
       		border-radius: 5px;
           background: rgba(255,255,255,0.3);
       	}
