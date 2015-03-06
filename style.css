@@ -75,42 +75,6 @@ Locations
     list-style: none outside none;
 }
 
-/****************
-FANCY BOX
-***************/
-/*
-#fancybox-content p, #fancybox-content a, #fancybox-content a:hover, #fancybox-content li, #fancybox-content td {
-    font-size: 13px;
-}
-
-#fancybox-content a:visited {
-   color: #fff;
-}
-
-#fancybox-content thead td {
-   font-size: 15px;
-   font-weight: bold;
-   background: #ccc;
-}
-
-#fancybox-content h3 {
-    font-size: 17px;
-    color: #0168B3;
-}
-
-#faq p {
-    margin-top: 0;
-    padding-top: 0;
-}
-
-#fancybox-content table, #fancybox-content thead, #fancybox-content tbody, #fancybox-content tr, #fancybox-content th, #fancybox-content td {
-    border: 1px solid #ccc;
-    padding: 5px;
-}
-
-#about, #fund, #aboutFoot, #where, #aboutEvent, #faq, #train, #loc {
-    width: 800px !important;
-}*/
 
 /***************
 GENERAL LAYOUT
@@ -778,57 +742,6 @@ Scoreboard
 }
 
 /****************
-LOCATION PAGES
-****************/
-/*
-.locationPageSponsors {
-    width: 720px;
-}
-
-.locationPageSponsors img {
-    margin-left: 85px;
-}
-
-#locationHomeContents #selectedLocationName {
-   width: 100%;
-}
-
-#selectedLocationName h2 {
-    background: rgb(0, 65, 111);
-    color: rgb(255, 255, 255);
-    font-size: 0.9em;
-    padding: 7px 1px 7px 7px;
-    width: 100%;
-    font-weight: normal;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-}
-
-.locationPageSponsors h3 {
-    margin: -36px auto 0 auto;
-    background-color: rgb(255, 255, 255);
-    display: block;
-    font-size: 0.8em;
-    letter-spacing: 0.09em;
-    padding: 10px;
-    text-align: center;
-    text-transform: uppercase;
-    color: rgb(90, 90, 90);
-    width: 383px;
-}
-
-.locationPageSponsors a {
-    display: block;
-    float: left;
-    margin: 0 43px;
-}
-
-#locationDescriptionPanel {
-    width: 93%;
-    border: none;
-}
-*/
-/****************
 PERSONAL TEAM PAGES
 ****************/
 
@@ -878,7 +791,6 @@ display:inline-block;
 margin:auto;
 width:800px;
 }
-
 
 .fundraising101thumb{
   -webkit-transition: all .8s ease-in-out;
