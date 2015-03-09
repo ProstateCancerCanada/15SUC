@@ -680,7 +680,7 @@ hr {
 				background: #fff;
 				opacity: 1;
 			}
-      .banner .btn {
+    .banner .btn {
       		display: inline-block;
       		margin: 25px 0 0;
       		padding: 9px 22px 7px;
@@ -730,7 +730,7 @@ Scoreboard
 }
 
 #scoreboard .scoreboard .resultRow {
-    border-bottom: 1px solid #ccc;
+   border-bottom: 1px solid #ccc;
    font-weight: normal;
 }
 
