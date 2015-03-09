@@ -610,7 +610,6 @@ hr {
 .banner{
   position: relative;
   margin-bottom: 15px;
-  text-shadow: 0 0 2px rgba(0,0,0,10), 0 1px 2px rgba(0,0,0,30);
 }
 .banner li {
   list-style: none;
@@ -627,18 +626,13 @@ hr {
 }
 
 .banner a{
-  font-size: 20px;
   color: #fff;
   text-decoration: none;
-  border-bottom: 1px solid #fff;
 }
 
 .banner a:hover{
-  font-size: 20px;
   color: #fff;
   text-decoration: none;
-  border-bottom: 1px solid #fff;
-
 }
 
 .banner h1{
@@ -647,6 +641,7 @@ hr {
   display: block;
   padding: 60px 0px 0px 55px;
   font-weight: 200;
+  text-shadow: 0 0 2px rgba(0,0,0,10), 0 1px 2px rgba(0,0,0,30);
 }
 
 .banner p{
@@ -694,12 +689,11 @@ hr {
       		font-weight: normal;
       		text-transform: uppercase;
       		text-decoration: none;
-      		border: 1px solid rgba(255,255,255,.4);
       		border-radius: 5px;
-          background: rgba(255,255,255,0.3);
+          background: #47B437;
       	}
       		.banner .btn:hover {
-      			background: rgba(255,255,255,0.5);
+      			background: #5CE047;
       		}
       		.banner .btn:active {
       			-webkit-filter: drop-shadow(0 -1px 2px rgba(0,0,0,.5));
